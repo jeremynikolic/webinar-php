@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "jeremynikolic/webinar-php",
+    "description": "webinar-php",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "jeremynikolic",
+        "webinar-php"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/jeremynikolic/webinar-php",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Jeremy Nikolic",
+            "email": "nikolic.jeremy@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Jeremynikolic\\WebinarPhp\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Jeremynikolic\\WebinarPhp\\Tests\\": "tests"
         }
     },
     "scripts": {
